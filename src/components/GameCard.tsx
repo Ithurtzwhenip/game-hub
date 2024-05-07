@@ -12,7 +12,7 @@ interface Props {
 
 const GameCard=({game}:Props)=>{
     return (
-        <Card width='250px' borderRadius={10} overflow={'hidden'}>
+        <Card width='280px' borderRadius={10} overflow={'hidden'}>
             <Image src={game.background_image} />
             <CardBody>
                 <HStack justifyContent='space-between' marginBottom={2}>
